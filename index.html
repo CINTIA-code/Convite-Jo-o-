@@ -12,58 +12,74 @@ display:flex;
 justify-content:center;
 align-items:center;
 height:100vh;
-background:#0b1a4a;
-font-family:Arial;
+background:#000;
+font-family:Arial, sans-serif;
 }
 
 .convite{
 
 width:360px;
 height:640px;
-background:linear-gradient(#1a2aff,#020b40);
+background-image:url("roblox-fundo.jpg");
+background-size:cover;
+background-position:center;
+position:relative;
 color:white;
 text-align:center;
-border-radius:20px;
-padding:20px;
-box-shadow:0 0 20px rgba(0,0,0,0.6);
 
 }
 
 .roblox{
 
+position:absolute;
+top:20px;
+width:100%;
 font-size:40px;
 font-weight:bold;
-margin-top:10px;
+letter-spacing:6px;
 
 }
 
 .nome{
 
-font-size:38px;
+position:absolute;
+top:270px;
+width:100%;
+font-size:42px;
 color:#ff2a2a;
 font-weight:bold;
-margin-top:20px;
+text-shadow:2px 2px 5px black;
 
 }
 
 .idade{
 
-font-size:28px;
+position:absolute;
+top:340px;
+width:100%;
+font-size:30px;
+font-weight:bold;
 
 }
 
 .frase{
 
-margin-top:20px;
+position:absolute;
+top:400px;
+width:80%;
+left:10%;
 font-size:18px;
 
 }
 
 .data{
 
+position:absolute;
+bottom:120px;
+left:50%;
+transform:translateX(-50%);
 background:red;
-padding:15px;
-margin-top:30px;
+padding:15px 25px;
 border-radius:10px;
 font-size:22px;
 font-weight:bold;
@@ -78,7 +94,9 @@ font-weight:bold;
 
 <div class="convite">
 
-<div class="roblox">ROBLOX</div>
+<div class="roblox">
+ROBLOX
+</div>
 
 <div class="nome">
 João Miguel
